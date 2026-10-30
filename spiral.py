@@ -83,7 +83,7 @@ class Spiral:
             pid = pnode[2]
         else:
             return (
-                self.funcs.func[self.func_name](0),
+                1,
                 1,
                 0
             )
